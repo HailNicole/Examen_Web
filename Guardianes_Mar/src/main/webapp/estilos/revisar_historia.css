@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+section{
+	text-align:justify;
+}
+
+.contenedor-section{
+	margin: 1.7rem;
+	padding:1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fija el ancho de las celdas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #2a9df4;
+    color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: justify;
+    width: 150px; /* Ancho predeterminado */
+    height: 50px; /* Alto predeterminado */
+}
+
+.col-1 {
+    width: 5%; /* Ancho para la primera columna */
+}
+
+.col-2 {
+    width: 95%; /* Ancho para la segunda columna */
+}
+
+th {
+    background-color: #1c7ed6; /* Azul oscuro para los encabezados */
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7f3ff; /* Azul claro para las filas pares */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Blanco para las filas impares */
+}
+
+tbody tr:hover {
+    background-color: #d0e7ff; /* Azul claro más oscuro para el hover */
+}
+
+input[type="submit"] {
+	padding: 10px 20px; /* Espacio interno del botón */
+	font-weight: bold;
+    font-size: 15px; /* Tamaño del texto */
+    background-color: #F0F042; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+input[type="submit"]:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}

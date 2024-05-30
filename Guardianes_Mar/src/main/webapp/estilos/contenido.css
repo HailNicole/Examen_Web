@@ -1,0 +1,264 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    #header {
+        width: 100%;
+    }
+     #contenido {
+        width: 100%;
+    }
+    .slider-box{
+    	width: 100%;
+    }
+    body{
+    	padding:30px;
+    }
+}
+
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}    
+}
+
+#contenido{
+	margin: 0px;
+	padding:15px 15px 15px 15px;
+}
+
+#contenido h1{
+	font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.seccion{
+	background: white;
+	width: 75%;
+	float:left;
+}
+.contenedor-section{
+	margin: 2.7rem;
+	margin-top: 0px;
+}
+
+.agrupar{
+	border:1px;
+	margin: auto;
+	width:100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.slider-box{
+	width: 1280px;
+	height: auto;
+	margin: 10px auto 0;
+	overflow: hidden;
+}
+
+.slider-box ul{
+	display:flex;
+	padding:0;
+	width:400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+	width:100%;
+	list-style:none;
+	position:relative;
+}
+
+.slider-box img{
+	width:100%;
+	height: auto;
+	display: block;
+}
+
+.introduccion{
+	background-color: #e1e5db;
+}
+
+.texto-introduccion{
+	margin: 20px auto 0;
+	padding:20px;
+}
+
+.texto-introduccion .int-encabezado{
+	text-align:center;
+}
+
+.int-txt{
+	line-height:1.5;
+	text-align:justify;
+}
+
+.noticias-section{
+	margin:30px 15px 15px 15px;
+	padding: 2rem;
+	text-align: center;
+	border-top: 1px solid white;
+	background-color: #e1e5db;
+	margin: 20px auto 0;
+	padding:20px;
+}
+
+.row.row-1 img{
+	width:100%;
+}
+
+.display-noticias{
+	display: grid;
+	margin: auto;
+	grid-template-columns: repeat(2,1fr);
+	grid-column-gap: 50px;
+	padding-bottom: 1rem;
+}
+
+.item-noticia{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:2rem;
+	margin:auto;
+	gap: 16px;
+}
+
+.div-noticia{
+	display: inline-block;
+	position: relative;
+}
+
+.item-noticia .row-2{
+    max-width: 100%;
+    position:absolute;
+    text-align: justify;
+    line-height: 1.5;
+    bottom: 10px; /* Ajusta la posición vertical del texto (por ejemplo, 10px desde la parte inferior) */
+    left: 10px; /* Ajusta la posición horizontal del texto (por ejemplo, 10px desde la parte izquierda) */
+    right: 10px;
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente para hacer el texto legible */
+    padding: 5px;
+    font-size:1rem;
+}
+
+.item-noticia .boton-noticia{
+	margin-top: 20px;	
+}
+
+button {
+	padding: 10px 20px; /* Espacio interno del botón */
+	font-weight: bold;
+    font-size: 35px; /* Tamaño del texto */
+    background-color: #F0F042; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+.historias-section{
+	background-color: #e1e5db;
+	margin: 20px auto 0;
+	padding:20px;
+}
+
+.colum-1{
+	width:15%;
+}
+
+.colum-2{
+	width:80%;
+}
+
+.colum{
+	float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.colum-1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.item-historia p{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.item-historia{
+	padding: 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.div-historia{
+	max-width: 1560px;
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+	overflow:hidden;
+	border:1px solid black;
+}
+
+.titulo-incial{
+	background-color: #DFDEDF;
+	padding:15px;
+}
+
+input[type="submit"], input[type="reset"] {
+	padding: 10px 20px; /* Espacio interno del botón */
+	font-weight: bold;
+    font-size: 15px; /* Tamaño del texto */
+    background-color: #F0F042; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+input[type="reset"]:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+input[type="submit"]:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+input[type="text"]{
+	height: 25px;;
+	width: 100%;
+	font-size: 16px;
+	padding:5px;
+}

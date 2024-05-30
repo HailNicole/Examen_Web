@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.seccion{
+	text-align:center;
+	width: 50%;
+	margin-left:15rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.contenedor-section{
+	margin:auto;
+	padding:2rem;
+}
+
+.contenedor-form{
+	margin:auto;
+	padding:20px 50px 20px 50px;
+	display:inline-block;
+	border:solid .2rem white;
+}
+
+form{
+	padding:1rem;
+	border:.1rem solid black;
+}
+
+.div1{
+	padding:1rem;
+	padding-bottom:20px;
+	text-align:left;
+}
+
+.div2{
+	padding:1rem;
+	padding-bottom:20px;
+	text-align:left;
+}
+
+.div3{
+	padding:1rem;
+	padding-bottom:20px;
+	text-align:left;
+}
+
+.div4{
+	padding:1rem;
+	padding-bottom:20px;
+	text-align:left;
+}
+
+.div5{
+	padding:1rem;
+	padding-bottom:0px;
+	text-align:center;
+}
+
+.ref-crear-cuenta{
+	padding:1rem;
+	text-align:center;
+}
+
+input[type="submit"], input[type="reset"] {
+	padding: 10px 20px; /* Espacio interno del botón */
+	font-weight: bold;
+    font-size: 15px; /* Tamaño del texto */
+    background-color: #F0F042; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+input[type="reset"]:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+input[type="submit"]:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+input[type="email"], input[type="password"], input[type="text"]{
+	height: 25px;;
+	width: 100%;
+	font-size: 16px;
+	padding:5px;
+}

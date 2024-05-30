@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+section{
+	text-align:justify;
+}
+
+.contenedor-section{
+	margin: 1.7rem;
+	padding:1rem;
+}
+
+.item-historia{
+	padding: 30px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    line-height: 1.5;
+    text-align: justify;
+}

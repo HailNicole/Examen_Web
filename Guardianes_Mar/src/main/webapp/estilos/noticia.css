@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+.seccion{
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.contenedor-section{
+	margin:auto;
+	padding:2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .noticias {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .noticias {
+        width: 100%;
+    }
+}
+
+.noticias .titulo{
+	text-align:center;
+	padding-top:3rem;
+	margin:auto;
+}
+
+.noticias .titulo>h1{
+	padding-bottom:3rem;
+	font-size: 3rem;
+	font-weight: normal !important;
+}
+
+.nuevo-item{
+	padding: 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.nuevo-item .titulo{
+	padding-bottom:3rem;
+	font-size: 3rem;
+	font-weight: normal !important;
+}
+
+.noticia{
+	max-width: 1560px;
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+	overflow:hidden;
+}
+
+.colum-1{
+	width:35%;
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	align-items: center;
+}
+
+.colum-2{
+	width:55%;
+}
+
+.colum{
+	float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.colum-1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nuevo-item .encabezado{
+	border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.nuevo-item .encabezado>h2{
+	margin: 0px 0 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.nuevo-item blockquote{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.nuevo-item .contenedor-boton{
+	margin-top: 20px;
+}
+
+.nuevo-item .btn-noticia1 {
+	padding: 10px 20px; /* Espacio interno del botón */
+	font-weight: bold;
+    font-size: 35px; /* Tamaño del texto */
+    background-color: #F0F042; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-noticia1:hover {
+  	background-color: #FFFF93; /* Cambia el color de fondo al pasar sobre el botón */
+}

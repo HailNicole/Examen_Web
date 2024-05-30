@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.seccion{
+	text-align:center;
+	border-radius: 10px;
+}
+
+#contenido {
+    margin: 0px;
+    padding: 15px 15px 15px 15px;
+}
+
+.contenedor-section{
+	margin:auto;
+	padding:2rem;
+}
+
+.contenedor-form{
+	margin:auto;
+	padding:20px 50px 20px 50px;
+	display: inline-block;
+	border: solid .2rem white;
+}
+
+form{
+	padding:1rem;
+	border:.1rem solid black;
+}
+
+select {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+/* Estilo al pasar el mouse sobre el combobox */
+select:hover {
+    border-color: #888;
+}
+
+/* Estilo al tener el foco */
+select:focus {
+    outline: none;
+    border-color: #555;
+}
+
+/* Estilo para las opciones */
+.cmbCategoria option {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.guia .encabezado{
+	text-align:center;
+	padding-top:3rem;
+	margin:auto;
+}
+
+.guia .encabezado>h1{
+	padding-bottom:3rem;
+	font-size: 3rem;
+	font-weight: normal !important;
+}
+
+.guia h2{
+	text-align:justify;
+}
+
+.nuevo-item{
+	padding: 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    line-height: 1.5;
+    text-align: justify;
+    border-top: solid .1rem black;
+}
+
+.guia .encabezado{
+	padding-bottom:3rem;
+	font-size: 3rem;
+	font-weight: normal !important;
+}
+
+.guia{
+	max-width: 1560px;
+    margin: 0 auto;
+    padding: 0 30px;
+	overflow:hidden;
+}
+
+.guia .contenido{
+	padding: 0 15px;
+	margin:auto;
+	text-align:justify;
+}
+
+.cont-img{
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.cont-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nuevo-item .encabezado{
+	border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.nuevo-item .encabezado>h2{
+	margin: 0px 0 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.nuevo-item .contenedor-boton{
+	margin-top: 20px;
+}
