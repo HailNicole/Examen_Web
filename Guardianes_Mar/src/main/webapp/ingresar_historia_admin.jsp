@@ -23,10 +23,10 @@
 								<textarea id="texto" name="txtHistoria" rows="10" cols="30"></textarea>
 							</div>
 							<div class="div-2">
-							Estado:
-								True<input type="radio" id="true" name="radioEstado" value="true">
+							<label>Estado:</label>
+								<label>True<input type="radio" id="true" name="radioEstado" value="true"></label>
 						        
-						        False<input type="radio" id="false" name="radioEstado" value="false">
+						       <label>False<input type="radio" id="false" name="radioEstado" value="false"></label>
 							</div>
 							<div class="div-4">
 								<input type="submit" value="Publicar Historia"/>

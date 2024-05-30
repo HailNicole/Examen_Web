@@ -21,18 +21,18 @@
 						<div class = "contenedor-form">
 							<form action="respuesta_add_noticia.jsp" method="post">
 								<div class="div1">
-									<label>Imagen</label>
-									<input type="file" id="filepicker" name="FotoNoticia" accept="image/*" />
+									<label>Imagen
+									<input type="file" id="filepicker" name="FotoNoticia" accept="image/*" /></label>
 								</div>
 								<div class="div2">
-									<label>Encabezado</label><input type="text" name="txtTitulo" required />
+									<label>Encabezado<input type="text" name="txtTitulo" required /></label>
 								</div>
 								<div class="div3">
-									<label>Contenido</label>
-									<textarea id="texto" name="txtContenido" rows="10" cols="30"></textarea>
+									<label>Contenido
+									<textarea id="texto" name="txtContenido" rows="10" cols="30"></textarea></label>
 								</div>
 								<div class="div4">
-									<label>Enlace Oficial</label><input type="text" name="txtPath" required/>
+									<label>Enlace Oficial<input type="text" name="txtPath" required/></label>
 								</div>
 								<div class="div5">
 									<input type="submit" value="Agregar Noticia"/>

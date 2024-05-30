@@ -22,15 +22,15 @@
 						<div class = "contenedor-form">
 							<form action="respuesta_add_guia.jsp" method="post">
 								<div class="div1">
-									<label>Imagen</label>
-									<input type="file" id="filepicker" name="FotoNoticia" accept="image/*" />
+									<label>Imagen
+									<input type="file" id="filepicker" name="FotoNoticia" accept="image/*" /></label>
 								</div>
 								<div class="div2">
-									<label>Titulos</label><input type="text" name="txtTitulo" required />
+									<label>Titulos<input type="text" name="txtTitulo" required /></label>
 								</div>
 								<div class="div3">
-									<label>Contenido</label>
-									<textarea id="texto" name="txtContenido" rows="10" cols="30"></textarea>
+									<label>Contenido
+									<textarea id="texto" name="txtContenido" rows="10" cols="30"></textarea></label>
 								</div>
 								<div class="div4">
 									<label for="cmbCategoria"><b>Categoría</b></label>

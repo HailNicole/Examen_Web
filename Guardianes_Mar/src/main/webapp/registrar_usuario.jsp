@@ -31,16 +31,16 @@
 					<div class="contenedor-form">
 						<form action="respuesta.jsp" method="post">
 							<div class="div1">
-								<label>Nombre</label><input type="text" name="txtNombre" required />
+								<label>Nombre<input type="text" name="txtNombre" required /></label>
 							</div>
 							<div class="div2">
-								<label>Correo Electrónico</label><input type="email" name="txtUser" required />
+								<label>Correo Electrónico<input type="email" name="txtUser" required /></label>
 							</div>
 							<div class="div3">
-								<label>Contraseña</label><input type="password" name="txtPswd" required/>
+								<label>Contraseña<input type="password" name="txtPswd" required/></label>
 							</div>
 							<div class="div4">
-								<label>Confirmar Contraseña</label><input type="password" name="txtPswdC" required/>
+								<label>Confirmar Contraseña<input type="password" name="txtPswdC" required/></label>
 							</div>
 							<div class="div5">
 								<input type="submit" value="Crear Cuenta"/>

@@ -20,7 +20,8 @@
 						</div>
 						<form action="respuesta_historia.jsp" method="post">
 							<div class="div-1">
-								<textarea id="texto" name="txtHistoria" rows="10" cols="30"></textarea>
+								<textarea id="texto" name="txtHistoria" rows="10" cols="30" 
+								placeholder="Ingresa aquí tu historia"></textarea>
 							</div>
 							<div class="div-2">
 								<input type="submit" value="Publicar Historia"/>

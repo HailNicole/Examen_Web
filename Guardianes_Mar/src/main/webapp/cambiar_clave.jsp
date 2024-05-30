@@ -22,13 +22,13 @@
 					<div class="contenedor-form">
 						<form action="cambiar_clave_respuesta.jsp" method="post">
 							<div class="div1">
-								<label>Correo Electrónico</label><input type="email" name="txtEmail" required />
+								<label>Correo Electrónico<input type="email" name="txtEmail" required /></label>
 							</div>
 							<div class="div2">
-								<label>Contraseña Nueva</label><input type="password" name="txtPswd" required/>
+								<label>Contraseña Nueva<input type="password" name="txtPswd" required/></label>
 							</div>
 							<div class="div3">
-								<label>Confirmar Contraseña</label><input type="password" name="txtPswdC" required/>
+								<label>Confirmar Contraseña<input type="password" name="txtPswdC" required/></label>
 							</div>
 							<div class="div5">
 								<input type="submit" value="Cambiar Contraseña"/>

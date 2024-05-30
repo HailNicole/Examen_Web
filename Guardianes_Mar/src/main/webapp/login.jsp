@@ -31,10 +31,10 @@
 					<div class="contenedor-form">
 						<form action="verificar_login.jsp" method="post">
 							<div class="div1">
-								<label>Correo Electrónico</label><input type="email" name="txtUser" required />
+								<label>Correo Electrónico</label><input type="email" name="txtUser" placeholder= "ejemplo@correo.com" required />
 							</div>
 							<div class="div2">
-								<label>Contraseña</label><input type="password" name="txtPswd" required/>
+								<label for="txtPswd">Contraseña<input type="password" name="txtPswd" required/></label>
 							</div>
 							<div class="div3">
 								<input type="submit" value="Ingresar"/>
