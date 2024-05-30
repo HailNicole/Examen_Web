@@ -2,7 +2,7 @@
     pageEncoding="UTF-8" session="true" import="com.examen.seguridad.*"%>
 	
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>

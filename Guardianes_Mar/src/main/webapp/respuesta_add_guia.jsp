@@ -2,7 +2,7 @@
     pageEncoding="UTF-8" session="true" import="com.examen.negocio.*"%>
     <%@ page import="java.io.File" %>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>Guardianes del Mar</title>
